@@ -9,10 +9,10 @@ Unlike traditional identity verification systems, HUMANEX focuses on **liveness 
 ## Live Deployment:
 
 
-##Full working DEMO:
-'''
+## Full working DEMO:
+```
 https://humanex-three.vercel.app/
-'''
+```
 
 ### Frontend (Vercel)
 ```
