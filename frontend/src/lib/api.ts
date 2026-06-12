@@ -20,8 +20,7 @@ export type VerifyResult = {
 };
 
 function baseUrl() {
-  const env = import.meta.env.VITE_API_URL;
-  return env && env.length > 0 ? env : "";
+  return "https://humanex-backend.onrender.com";
 }
 
 export async function fetchChallenge(): Promise<Challenge> {
