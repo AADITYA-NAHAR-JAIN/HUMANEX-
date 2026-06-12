@@ -8,13 +8,19 @@ Unlike traditional identity verification systems, HUMANEX focuses on **liveness 
 
 ## Live Deployment:
 
+
+##Full working DEMO:
+'''
+https://humanex-three.vercel.app/
+'''
+
 ### Frontend (Vercel)
 ```
-https://humanex-ten.vercel.app
+(https://humanex-three.vercel.app/)
 ```
 ### Backend API (Render)
 ```
-https://humanex.onrender.com
+https://humanex-backend.onrender.com
 ```
 *Note: Backend runs on free tier -> first request may take ~30-50 seconds (cold start)*
 
