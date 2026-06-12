@@ -1,5 +1,5 @@
 mediapipe==0.10.35
 opencv-python-headless==4.10.0.84
-numpy>=2.4.6
+numpy>=1.26.4,<2.0
 fastapi==0.115.0
 uvicorn==0.30.6
