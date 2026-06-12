@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: theme(fontFamily.display);
+  background: radial-gradient(1200px 800px at 20% 20%, rgba(125, 249, 255, 0.10), transparent 55%),
+    radial-gradient(900px 700px at 80% 25%, rgba(122, 92, 255, 0.10), transparent 55%),
+    linear-gradient(180deg, #05070d 0%, #070b16 100%);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.cyber-grid-bg {
+  background-image:
+    linear-gradient(rgba(125, 249, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(125, 249, 255, 0.05) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(circle at 50% 20%, black 0%, transparent 70%);
+}
+
+.scanlines {
+  background: repeating-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.03) 0px,
+    rgba(255, 255, 255, 0.03) 1px,
+    transparent 3px,
+    transparent 7px
+  );
+  mix-blend-mode: overlay;
+  opacity: 0.35;
+}
+
+.text-gradient-cyber {
+  background: linear-gradient(90deg, #7df9ff 0%, #a78bfa 55%, #7df9ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

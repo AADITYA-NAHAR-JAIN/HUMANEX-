@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/gridbackdrop.tsx","./src/components/layout.tsx","./src/components/verificationoverlays.tsx","./src/hooks/useblinktelemetry.ts","./src/hooks/usemotiontelemetry.ts","./src/hooks/usewebcamcapture.ts","./src/lib/api.ts","./src/pages/homepage.tsx","./src/pages/verificationpage.tsx"],"version":"5.9.3"}
